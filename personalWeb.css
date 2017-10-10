@@ -7111,6 +7111,7 @@ h3:before, h3:after {
 }
 body {
     overflow-x: hidden;
+	width: 100%;
 }
 	
 }
