@@ -6590,6 +6590,7 @@ button.close {
 	font-size: 80px;
 	font-weight: 600;
 
+
 }
 @media (max-height: 800px) {
 	.row h1 {
@@ -6603,6 +6604,7 @@ button.close {
 	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 25px;
 	font-weight: 600;
+
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	
 }
@@ -6696,7 +6698,8 @@ h3:before, h3:after {
 	margin-top:50px;
 	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 60px;
-	font-weight: 600;	
+	font-weight: 600;
+	
 }	
 
 /* BIO ENDS BIO ENDS */	
@@ -6733,6 +6736,7 @@ h3:before, h3:after {
 	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 60px;
 	font-weight: 600;
+
 }
 
 .edu span {
@@ -6740,6 +6744,8 @@ h3:before, h3:after {
 	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 45px;
 	font-weight: 550;
+	line-height: 64px;
+
 }
 
 
@@ -6780,7 +6786,8 @@ h3:before, h3:after {
 	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 35px;
 	font-weight: 550;
-	
+	line-height: 64px;
+
 }
 
 }
@@ -6806,6 +6813,7 @@ h3:before, h3:after {
 	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 60px;
 	font-weight: 600;
+
 }
 
 /* WORK ENDS WORK ENDS*/
@@ -6820,6 +6828,7 @@ h3:before, h3:after {
 	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 60px;
 	font-weight: 600;
+
 }
 
 
@@ -7088,16 +7097,20 @@ h3:before, h3:after {
 	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 30px;
 	font-weight: 600;	
+	line-height: 84px;
+
 }	
 .modal-content h4 {
 	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 25px;
 	font-weight: 600;	
+
 }	
 .modal-content h5 {
 	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 18px;
-	font-weight: 600;	
+	font-weight: 600;
+	
 }	
 .modal-content h6 {
 	
@@ -7105,7 +7118,8 @@ h3:before, h3:after {
 	margin:-30px;
 	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 15px;
-	font-weight: 500;	
+	font-weight: 500;
+	
 }	
 /* The Close Button */
 .close {
