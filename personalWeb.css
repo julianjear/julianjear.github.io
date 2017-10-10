@@ -6571,7 +6571,7 @@ button.close {
 	
 	background-position: 50% 50%;
 	
-	min-height: 100%;
+	height: 100%;
 	
 	
 
@@ -6583,16 +6583,20 @@ button.close {
 	font-size: 1050%;
 	vertical-align: middle;
 	text-align: center;
-	margin-top: 4em;
+	margin-top: 330px;
 	
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-	    font: normal normal 600 normal 80px / 84px "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 80px;
+	font-weight: 600;
 
 }
 .row h3 {
 	color: rgb(255, 255, 255);
 	vertical-align: middle;
-	 font: normal normal 600 normal 25px / 24px "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 25px;
+	font-weight: 600;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	
 }
@@ -6684,8 +6688,9 @@ h3:before, h3:after {
 	font-size: 350%;
 	text-align: center;
 	margin-top:50px;
-	font: normal normal 600 normal 60px / 54px "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	
+	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 60px;
+	font-weight: 600;	
 }	
 
 /* BIO ENDS BIO ENDS */	
@@ -6719,29 +6724,17 @@ h3:before, h3:after {
 	font-size: 350%;
 	text-align: center;
 	margin-top: 50px;
-	font: normal normal 600 normal 60px / 54px "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
-
+	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 60px;
+	font-weight: 600;
 }
 
-
-#H1_1 {
-    color: rgb(17, 17, 17);
-    height: 84px;
-    letter-spacing: -1.2px;
-    text-align: center;
-    text-decoration: none solid rgb(17, 17, 17);
-    text-size-adjust: 100%;
-    width: 842.797px;
-    column-rule-color: rgb(17, 17, 17);
-    perspective-origin: 421.391px 42px;
-    transform-origin: 421.391px 42px;
-    caret-color: rgb(17, 17, 17);
-    border: 0px none rgb(17, 17, 17);
-    font: normal normal 600 normal 80px / 84px "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin: 0px;
-    outline: rgb(17, 17, 17) none 0px;
-}/*#H1_1*/
-
+.edu span {
+	text-align: center;
+	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 45px;
+	font-weight: 550;
+}
 
 
 .edu p {
@@ -6753,7 +6746,7 @@ h3:before, h3:after {
 }
 .edu img {
 	display:inline-block;
-	width: 400px;
+	width: 330px;
 	height: auto;
 	margin: auto;
 	text-align: center;
@@ -6774,7 +6767,14 @@ h3:before, h3:after {
 @media (max-width: 600px) {
 .edu img {
 	display:block;
-
+	
+}
+.edu span {
+	text-align: center;
+	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 35px;
+	font-weight: 550;
+	
 }
 
 }
@@ -6797,8 +6797,9 @@ h3:before, h3:after {
 	font-size: 350%;
 	text-align: center;
 	margin-top: 50px;
-	font: normal normal 600 normal 60px / 54px "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
-
+	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 60px;
+	font-weight: 600;
 }
 
 /* WORK ENDS WORK ENDS*/
@@ -6810,8 +6811,9 @@ h3:before, h3:after {
 	font-size: 350%;
 	text-align: center;
 	margin-top: 50px;
-	font: normal normal 600 normal 60px / 54px "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
-
+	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 60px;
+	font-weight: 600;
 }
 
 
@@ -7077,23 +7079,27 @@ h3:before, h3:after {
 .modal-content h1 {
 	
 	text-align: center;
-	font: normal normal 600 normal 30px / 54px "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	
+	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 30px;
+	font-weight: 600;	
 }	
 .modal-content h4 {
-	font: normal normal 600 normal 25px / 54px "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	
+	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 25px;
+	font-weight: 600;	
 }	
 .modal-content h5 {
-	font: normal normal 600 normal 18px / 54px "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	
+	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: 600;	
 }	
 .modal-content h6 {
 	
 	text-align: center;
 	margin:-30px;
-	font: normal normal 500 normal 15px / 54px "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	
+	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	font-weight: 500;	
 }	
 /* The Close Button */
 .close {
