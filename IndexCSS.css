@@ -6998,8 +6998,8 @@ h3:before, h3:after {
 
 /* Modal Content */
 .modal-content .leftModalImages {
-	max-width: 125px;
-	max-height: 125px;
+	max-width: 80px;
+	max-height: 80px;
 	float: left;
 	margin-right: 10px;
 }
@@ -7102,19 +7102,28 @@ h3:before, h3:after {
 	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 30px;
 	font-weight: 600;	
-	line-height: 34px;
+	line-height: 14px;
 
 }	
-.modal-content h4 {
+.modal-content h3 {
 	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 25px;
 	font-weight: 600;	
 	line-height: 34px;
+	text-align: left;
+	margin-right: -150px;
+	
+}	
+.modal-content h4 {
+	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 21px;
+	font-weight: 600;	
+	line-height: 12px;
 }	
 .modal-content h5 {
 	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 18px;
-	font-weight: 600;
+	font-size: 15px;
+	font-weight: 550;
 	
 }	
 .modal-content h6 {
