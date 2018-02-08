@@ -418,6 +418,19 @@
 			<h1 class="center">Work Experience</h1>
 			<br><br>
 			<ul class="article-list-vertical">
+			
+				<li>
+					<img class="center" src="Resources/vizeLogo.jpg" alt="" target="_blank">
+					<div>
+						<h2>Vize</h2>
+						
+						<p>Vize is a platform where workers in developing countries will be able to find reviews of companies with details on safety, wages, working conditions, and much more. I am currently working as a front end web developer using the 
+						react framework and am also leading the technical team. </p>
+						
+						<p><button class="btn btn-success button"  id="btnVize">Read More →</button></p>
+					</div>
+				</li>
+				
 				<li>
 					<img class="center" src="Resources/ebay.jpg" alt="" target="_blank">
 					<div>
@@ -427,7 +440,6 @@
 						in sales over the course of 4 years. What started off as a small money making experiment has turned into a systemitized operation that has set me financially free. </p>
 						
 						<p><button class="btn btn-success button"  id="btnBusiness">Read More →</button></p>
-						<!--<p><a href="https://www.bloomberg.com/view/articles/2017-09-01/two-very-different-stories-about-amazon" class="read-more" target="_blank">Read more →</a></p>-->
 					</div>
 				</li>
 				
@@ -511,6 +523,24 @@
 	  
 
 	<!-- The Modal -->
+<div id="vizeModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+	<h1> Vize </h1>
+	<h6> November 2017 - Present </h6>
+	<h4> Overview </h4>
+	<p>Vize is a platform where workers in developing countries will be able to find reviews of companies with details on safety, wages, working conditions, and much more. I am currently working as a front end web developer using the react framework and am also leading the technical team by managing the project workflow and coordinating the engineers in their efforts.</p>
+	<br><h4> Experience </h4>
+    <p>Vize offers a unique experience where I have the opportunity to exercise my technical ability and my business/leadership insights to be an influential part of the startup. As a front end web developer I used HTML, CSS, & Javascript to design the website and then integrated it into components on the react platform. Managing the technical team has been a challenging role that has taught me the importance of designing a software structure that facilitates the coordination of all of the engineer's efforts. I also took the time to research tools and software that could facilitate the project and work flow management so that there can be open lines of communication between what everyone is working on.  
+</p>
+	<p>I'm motivated to work at Vize because of the social impact that the platform can have in improving the working conditions in developing countries. With a review and rating systems, there is a form of accountability for factories to have safe working conditions, reasonable working hours, and fair wages across different jobs for both genders.
+</p>
+ </div>
+
+</div>	
+
 <div id="businessModal" class="modal">
 
   <!-- Modal content -->
@@ -683,6 +713,7 @@
 	
 <script>
 // Get the modal
+var modalVize = document.getElementById('vizeModal');
 var modalBusiness = document.getElementById('businessModal');
 var modalApp = document.getElementById('appModal');
 var modalWeb = document.getElementById('webModal');
@@ -691,6 +722,7 @@ var modalTony = document.getElementById('tonyModal');
 var modalMAD = document.getElementById('madModal');
 
 // Get the button that opens the modal
+var btnV= document.getElementById("btnVize");
 var btnB = document.getElementById("btnBusiness");
 var btnA = document.getElementById("btnApp");
 var btnW = document.getElementById("btnWeb");
@@ -705,8 +737,12 @@ var span2 = document.getElementsByClassName("close")[2];
 var span3 = document.getElementsByClassName("close")[3];
 var span4 = document.getElementsByClassName("close")[4];
 var span5 = document.getElementsByClassName("close")[5];
+var span6 = document.getElementsByClassName("close")[6];
 
 // When the user clicks the button, open the modal 
+btnV.onclick = function() {
+    modalVize.style.display = "block";
+}
 btnB.onclick = function() {
     modalBusiness.style.display = "block";
 }
@@ -729,26 +765,31 @@ btnMAD.onclick = function() {
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
-	modalBusiness.style.display = "none";
+    modalVize.style.display = "none";
 }
 span1.onclick = function() {
-    modalApp.style.display = "none";
+	modalBusiness.style.display = "none";
 }
 span2.onclick = function() {
-    modalWeb.style.display = "none";
+    modalApp.style.display = "none";
 }
 span3.onclick = function() {
-	modalTACG.style.display = "none";
+    modalWeb.style.display = "none";
 }
 span4.onclick = function() {
-    modalTony.style.display = "none";
+	modalTACG.style.display = "none";
 }
 span5.onclick = function() {
+    modalTony.style.display = "none";
+}
+span6.onclick = function() {
     modalMAD.style.display = "none";
 }
+
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-    if (event.target == modalBusiness||event.target == modalApp||event.target == modalWeb||event.target == modalTACG||event.target == modalTony||event.target == modalMAD) {
+    if (event.target == modalVize||event.target == modalBusiness||event.target == modalApp||event.target == modalWeb||event.target == modalTACG||event.target == modalTony||event.target == modalMAD) {
+		modalVize.style.display = "none";
 		modalBusiness.style.display = "none";
 		modalApp.style.display = "none";
 		modalWeb.style.display = "none";
